@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SupermarketProject
 {
-    public partial class Splash : Form
+    public partial class Welcome_Screen : Form
     {
-        public Splash()
+        public Welcome_Screen()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace SupermarketProject
             {
                 myProgress.Value = 0;
                 timer1.Stop();
-                Form1 loginForm = new Form1();
+                Login_Screen loginForm = new Login_Screen();
                 this.Hide();
                 loginForm.Show();
             }

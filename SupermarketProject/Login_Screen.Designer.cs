@@ -1,7 +1,7 @@
 ﻿
 namespace SupermarketProject
 {
-    partial class Form1
+    partial class Login_Screen
     {
         /// <summary>
         /// Required designer variable.
@@ -47,6 +47,8 @@ namespace SupermarketProject
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(-13, -12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(207, 427);
@@ -124,6 +126,8 @@ namespace SupermarketProject
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(359, 263);
@@ -187,14 +191,14 @@ namespace SupermarketProject
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label8.Location = new System.Drawing.Point(567, 9);
+            this.label8.Location = new System.Drawing.Point(571, 9);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(21, 20);
+            this.label8.Size = new System.Drawing.Size(17, 20);
             this.label8.TabIndex = 12;
-            this.label8.Text = "X";
+            this.label8.Text = "x";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // Form1
+            // Login_Screen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -213,9 +217,10 @@ namespace SupermarketProject
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "Login_Screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Login_Screen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

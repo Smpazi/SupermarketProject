@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace SupermarketProject
 {
-    static class Program
+    static class App_start
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace SupermarketProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Splash());
+            Application.Run(new WelcomeScreen());
         }
     }
 }

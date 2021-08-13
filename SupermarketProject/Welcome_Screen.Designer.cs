@@ -1,7 +1,7 @@
 ﻿
 namespace SupermarketProject
 {
-    partial class Splash
+    partial class Welcome_Screen
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace SupermarketProject
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Splash));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Welcome_Screen));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.myProgress = new System.Windows.Forms.ProgressBar();

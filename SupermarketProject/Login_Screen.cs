@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SupermarketProject
 {
-    public partial class Form1 : Form
+    public partial class Login_Screen : Form
     {
-        public Form1()
+        public Login_Screen()
         {
             InitializeComponent();
         }
@@ -45,6 +45,11 @@ namespace SupermarketProject
         private void label8_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Login_Screen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
