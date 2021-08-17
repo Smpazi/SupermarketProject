@@ -16,7 +16,7 @@ namespace SupermarketProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Product_Screen());
+            Application.Run(new Catergory_Screen());
         }
     }
 }
